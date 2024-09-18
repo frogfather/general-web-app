@@ -11,15 +11,22 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@iconify-icon/react": "^2.1.0",
+    "@radix-ui/react-toast": "^1.2.1",
     "express": "^4.17.3",
     "express-async-handler": "^1.2.0",
+    "immer": "^10.1.1",
+    "jotai": "^2.9.3",
+    "jotai-immer": "^0.4.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.4",
     "@babel/preset-react": "^7.24.7",
     "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
     "nodemon": "^3.1.5",
     "webpack": "^5.94.0",
     "webpack-cli": "^5.1.4",

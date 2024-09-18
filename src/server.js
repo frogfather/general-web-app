@@ -10,10 +10,10 @@ import path from "path";
 const port = 8080;
 const app = express();
 const compiler = webpack(webpackConfig);
-// app.use(webpackDevMiddleware(compiler, {
-//   publicPath: webpackConfig.output.publicPath
-// }));
-// app.use(webpackHotMiddleware(compiler, {}));
+app.use(webpackDevMiddleware(compiler, {
+  publicPath: webpackConfig.output.publicPath
+}));
+app.use(webpackHotMiddleware(compiler, {}));
 
 app.get( "/",(req, res) => {
     res.send("Hello World!");
