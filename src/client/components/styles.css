@@ -1,4 +1,17 @@
 .app-wrapper {
     display: flex;
-    background-color: red;
+    background-color: lightgray;
+    height: 400px;
+}
+
+.main-app {
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}
+
+.left {
+    background-color: green;
+    width: 200px;
+    height: 100px;
 }

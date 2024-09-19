@@ -86,7 +86,7 @@ const SingleToast = ({
 const Toaster = () => {
   const [{ list }] = useAtom(toastAtom);
   return (
-    <Toast.Provider swipeDirection="right">
+    <Toast.Provider swipeDirection="right" className="toaster">
       {list.map((props, index) => (
         <SingleToast
           //@ts-ignore
